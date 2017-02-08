@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Tablas en HTML</title>
+    <!--Estilo interno
+    <style>
+        tr{ background-color: blue;}
+    </style> no recomendable-->
+    <!-- Estilo externo por medio de una hoja -->
+    <link rel="stylesheet" href="estilos.css" type="text/css">
 </head>
 <body>
     <h1>Ejemplo de tablas en HTML</h1>
     <table>
         <thead>
-            <tr>
+            <!--Estilo en linea-->
+            <tr class="verde">
                 <th>Materia</th>
                 <th>Creditos</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="verde">
                 <td>Arquitectura A</td>
                 <td>10</td>
             </tr>
@@ -28,7 +35,8 @@
             </tr>
         </tbody>
         <tfoot>
-            <tr>
+            <!--<tr style="background-color: green;">-->
+                <tr class="verde">
                 <td>Total</td>
                 <td>28</td>
             </tr>
