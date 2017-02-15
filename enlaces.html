@@ -8,13 +8,50 @@
 
 <body>
     <header>
-        <h1>Ejemplos de enlaces</h1>
+        <h1>Enlaces en HTML</h1>
     </header>
     <main>
+        <p>Para poder hacer uso de enlaces en HTML necesitamos la etiqueta <i>&lt;a&gt;</i> seguido de una serie de elementos que explicare mas adelante, despues el texto que dira nuestro enlace y al final su etiqueta de cierre <i>&lt;/a&gt;</i>.</p>
+
+        <h3>Elementos de la etiqueta <i>&lt;a&gt;</i></h3>
+        <h4>Elemento 'href'</h4>
+
+        <p>El primer elemento y el mas importante es el <i><b>href</b></i> donde haremos referencia a la pagina o al documento el cual queremos que abra ese enlace, y tambien se puede hacer un enlace nulo al hacer uso del simbolo '#'<br>
+        Ejemplos:</p>
+        <p><i>&lt;a href="#"&gt;Enlace nulo&lt;/a&gt;</i><br>
+        Nos da como resultado este enlace el cual no abre nada</p>
         <a href="#">Enlace nulo</a>
+
+        <p><i>&lt;a href="http://google.com"&gt;Ir a Google&lt;/a&gt;</i><br>
+        Nos da como resultado este enlace el cual nos lleva a la pagina de Google</p>
+        <a href="http://google.com">Ir a google</a>
+
+        <p><i>&lt;a href="parrafos.html"&gt;Parrafos en HTML&lt;/a&gt;</i><br>
+        Nos da como resultado este enlace el cual nos lleva a una pagina donde se explica el uso de parrafos en HTML</p>
+        <a href="parrafos.html">Parrafos en HTML</a>
+        
+        <h4>Elemento 'target'</h4>
+        <p>Otro elemento es el <i><b>target</b></i> el cual nos permite que el enlace a la pagina abra en otra pestaña o ya sea ahi mismo, si este elemento no se especifica, el enlace abrira en la misma pestaña.<br>
+        Ejemplos:</p>
+        <p><i>&lt;a href="http://google.com" target="_blank"&gt;Ir a Google&lt;/a&gt;</i><br>
+        Nos abrira la pagina en otra pestaña</p>
         <a href="http://google.com" target="_blank">Ir a google</a>
-        <a href="estructura.html">Ejemplos de estructura HTML</a>
+
+        <p><i>&lt;a href="parrafos.html" target="_self"&gt;Parrafos en HTML&lt;/a&gt;</i><br>
+        Nos abrira la pagina en la misma pestaña o por el contrario no se puede especificar este elemento y por default abrirá la pagina en la misma pestaña</p>
+        <a href="parrafos.html" target="_self">Parrafos en HTML</a>
+
+       <h4>Elemento 'download'</h4>
+       <p>Otro elemento es el <i><b>download</b></i> el cual nos permite descargar el archivo especificado en el enlace.<br>
+        Ejemplos:</p>
+        <p><i>&lt;a href="temario.pdf" download=""&gt;Temario del curso&lt;/a&gt;</i><br>
+        Nos descargará el temario de esta clase.</p>
         <a href="temario.pdf" download="">Temario del curso</a>
+
+        <br>
+        <p>Maldonado Díaz Fabián Giovany</p>
+        <p>&copy; Todos los derechos reservados, 2017, S.L.P.</p>
+        
         <h3><a href="index.html">Volver al menu.</a></h3>
     </main>
 </body>

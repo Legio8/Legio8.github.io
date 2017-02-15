@@ -6,49 +6,74 @@
 <!--el elemento head contiene para el navegador-->
 
 <!--el elemento tittle contiene el nombre de la pagina que se muestra en la pestaña del navegador-->
-<title>Hola mundo</title>
+<title>Parrafos en HTML</title>
 <meta charset="utf-8"> <!--el elemento meta no especifica informacion adicional y no requiere etiqueta de cierre--> 
 </head>
 
 <body>
 <!--el elemento body contiene informacion que se visualizara en el navegador como el cntenido de la pagina-->
-<h1>Esta es mi primera pagina !</h1>
+<header>
+    <h1>Como usar parrafos en HTML</h1>
+</header>
 
-<p> este es un parrafo </p>
-<p> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis scelerisque sollicitudin. Donec malesuada congue luctus. In iaculis libero non lobortis ultrices. Curabitur pellentesque nunc nec ipsum sagittis congue. Nulla non tincidunt velit. Mauris dignissim nibh at ex consequat, at dictum&nbsp;augue egestas. </p>
+<main>
+<p>Los parrafos se utilizan mediante la etiqueta de apertura <i>&lt;p&gt;</i> la cuál al terminar de escribir el parrafo tendra que usar su etiqueta de cierre la cual es <i>&lt;/p&gt;</i>.</p>
+
+<h3>Ejemplo:</h3>
+
+<p><i>&lt;p&gt;</i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis scelerisque sollicitudin. Donec malesuada congue luctus. In iaculis libero non lobortis ultrices. Curabitur pellentesque nunc nec ipsum sagittis congue. Nulla non tincidunt velit. Mauris dignissim nibh at ex consequat, at dictum&nbsp;augue egestas.<i>&lt;/p&gt;</i> </p>
+
+<p>Dentro de los parrafos o casi cualquier etiqueta que use texto en HTML se pueden hacer uso de las letras en negritas, letra cursiva, texto resaltado, texto con enfasis, etc. Todas estas con sus respectivas etiquetas de apertura y cierre, y todas estas tendrian que ir dentro de las etiquetas <i>&lt;p&gt;</i> <i>&lt;/p&gt;</i></p>
+
+<h4>Ejemplo de negritas:</h4>
+
+<p>Para las negritas se usa la etiqueta <i>&lt;b&gt;</i> como se muestra acontinuacion:</p>
+<p><i>&lt;p&gt;</i>Este parrafo usa <i>&lt;b&gt;</i>negritas.<i>&lt;/b&gt;</i><i>&lt;/p&gt;</i></p>
+<p>Se vería así:<br>
+Este parrafo usa <b>negritas.</b></p>
+
+<h4>Ejemplo de letra cursiva:</h4>
+
+<p>Para la cursiva se usa la etiqueta <i>&lt;i&gt;</i>,que es lo que se ha usado para distinguir las etiquetas, y se usa de la siguente manera:</p>
+<p><i>&lt;p&gt;</i>Este parrafo usa<i>&lt;i&gt;</i>letra cursiva<i>&lt;/i&gt;</i><i>&lt;/p&gt;</i></p>
+<p>Se vería así:<br>
+Este parrafo usa <i>letra cursiva.</i></p>
+
+<h4>Ejemplo de texto resaltado:</h4>
+
+<p>Para el texto resaltado se usa la etiqueta <i>&lt;strong&gt;</i> el cual es un poco parecido a las negritas y se usa de la siguiente manera:</p>
+<p><i>&lt;p&gt;</i>Lo siguente es un <i>&lt;strong&gt;</i>texto resaltado<i>&lt;/strong&gt;</i><i>&lt;/p&gt;</i></p>
+<p>Se vería así:<br>
+Lo siguente es un <strong>texto resaltado.</strong></p>
+
+<h4>Ejemplo de texto resaltado con énfasis:</h4>
+
+<p>Para el texto resaltado con enfasis se usa la etiqueta <i>&lt;strong&gt;</i> el cual es un poco parecido a la cursiva y se usa de la siguiente manera:</p>
+<p><i>&lt;p&gt;</i>Este parrafo contiene <i>&lt;em&gt;</i>texto resaltado con enfasis<i>&lt;/em&gt;</i><i>&lt;/p&gt;</i></p>
+<p>Se vería así:<br>
+Lo siguente es un <em>texto resaltado.</em></p>
 <br>
+
+<p>Tambien esta el uso de los encabezados o titulos, los cuales se usan con la letra <i><b>h</b></i> y un numero del 1 al 6, si utilizamos un h1 el encabezado se verá grande pero mientras se use un numero mas cercano al 6 se vera mas chico.</p>
 <br>
+<p><i>&lt;h1&gt;</i>Este es un encabezado grande.<i>&lt;h1&gt;</i></p>
+<h1>Este es un encabezado grande</h1>
 <br>
+<p><i>&lt;h6&gt;</i>Este es un encabezado chico.<i>&lt;h6&gt;</i></p>
+<h6>Este es un encabezado chico (muy chico)</h6>
 <br>
-<p>Quisque lacinia rhoncus risus, non consectetur nulla viverra vel. Maecenas eu sollicitudin velit. Etiam purus mauris, tincidunt ut odio efficitur, placerat consequat mi. Sed mattis eu ipsum a mollis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque venenatis vitae libero laoreet egestas. </p>
 
-<h2> Mi nombre es Gio Maldonado</h2>
+<p>Y tambien se pueden usar los saltos de linea los cuales utilizan solo la etiqueta <i><b>br</b></i> y no lleva una etiqueta de cierre.</p>
+<p><i>&lt;p&gt;</i>En este parrafo se usa <i>&lt;br&gt;</i><br>
+Un salto de linea.<i>&lt;/p&gt;</i></p>
+<br>
 
-<h3> Estudio ing.Computacion </h3>
-
-<h4> Ejemplo de NEGRITAS</h4>
-<p> este es un parrafo que usa <b>NEGRITAS</b>.</p>
-
-<h4> ejemplo de cursivas </h4>
-<p> parrafo de <i>cursivas</i>.</p>
-
-<h4>Ejemplo de texto resaltado</h4>
-<p>Esto es un <strong>texto resaltado</strong></p>
-
-<p>Este es otro parrafo con <em>texto resaltado con énfasis</em></p>
-
-<h4>Caracteres especiales</h4>
-
-<p>Esta es una comparacion a < b </p>
-
-<p>&lt;br&gt; es una etiquetade salto de linea</p>
-
+<p>Maldonado Díaz Fabián Giovany</p>
 <p>&copy; Todos los derechos reservados, 2017, S.L.P.</p>
 
-<h5> esto es un h5 </h5>
+</main>
 
-<h6> esto es un h6 </h6>
+
 
 <h3><a href="index.html">Volver al menu.</a></h3>
 </body>
